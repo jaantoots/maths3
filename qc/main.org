@@ -1,0 +1,40 @@
+#+TITLE: Quantum Computation
+
+* Significance and context
+** Fundamental connection between physics and computing
+*** Physics as computing
+*** Computing as physics
+** Technology/engineering
+*** Miniaturisation of computer components to subatomic scale
+*** Much recent progress in quantum technology
+Expect around 50 qubits in full coherent control soon
+** Theoretical quantum computer science, quantum algorithms
+*** How to actually exploit quantum physical effects for computational possibilities beyond classical
+* Basic ingredients of computational complexity theory
+** Computability vs uncomputability
+*Example*:
+- given integer $N$, is it prime? /computable/
+- halting problem: given the code of a computer program, will it halt if run? /uncomputable/
+- given a polynomial with integer coefficients with many variables, does it have a root in integers? /uncomputable/
+These are for classical computing
+All laws of quantum physics (state descriptions, evolution equations) are all computable on a classical computer,
+so QC (being a quantum process) cannot compute any classically uncomputable problems
+But complexity of the computation 
+** Computational task
+- Input :: bit string $x = i_1\dots i_n$
+- Language :: $L \subset B$
+- Decision problem :: given an $n$-bit string is it in the language
+- Output :: ?
+** Computational model
+*** Process with dicrete steps, computational steps
+** Randomised (probabilistic) computation
+Process has access to random bits
+** Complexity of a computational task (or algorithm)
+Consumption of resource as function of input size $n$.
+Resources usually:
+time $T(n) \equiv$ number of copmutational steps needed,
+space $Sp(n) \equiv$ amount of memory/work space needed,
+in each case take worst case of input size $n$.
+*Main question*: Does $T$ grow polynomially or exponentially (super-poly) with $n$?
+- Poly :: $T(n) = O(poly(n))$ or $O(N^k)$ some $k$, i.e. $\exists n_0, \text{const} c | T(n) < cn^k$ all $n>n_0$
+- Exponential :: $T(n) = c_12^{c_2 n}$ all $n>n_0$, also $T(n)  =2^{\sqrt{n}},n^{\log n}$ super-poly & sub-exponential
