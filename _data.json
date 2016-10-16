@@ -1,0 +1,17 @@
+{
+    "gr": {
+        "title": "General Relativity"
+    },
+    "msm": {
+        "title": "Modern Statistical Methods"
+    },
+    "qc": {
+        "title": "Quantum Computation"
+    },
+    "qft": {
+        "title": "Quantum Field Theory"
+    },
+    "sym": {
+        "title": "Symmetries, Fields and Particles"
+    }
+}

@@ -1,3 +1,10 @@
+include _mixins
 h1 Mathematics Part III
 
-code= public._contents
+.row
+  for dir, slug in public._data
+    .col-md-4.col-sm-6.col-xs-12
+      +panel(dir.title)
+        ul
+          for file in public[slug]._contents
+            li: a(href="/#{slug}/#{file}") #{file}
