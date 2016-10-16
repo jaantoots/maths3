@@ -11,4 +11,4 @@ example sheets follow DAMTP naming where applicable.
 - [Quantum Field Theory](/qft)
 - [General Relativity](/gr)
 - [Modern Statistical Methods](/msm)
-- [Topics in Statistical Theory](/tst)
+
