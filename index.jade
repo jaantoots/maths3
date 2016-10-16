@@ -8,3 +8,8 @@ h1 Mathematics Part III
         ul
           for file in public[slug]._contents
             li: a(href="/#{slug}/#{file}") #{file}
+          li: a(href="##{slug}-notes" data-toggle="collapse" role="button") notes/
+          .collapse(id="#{slug}-notes")
+            ul
+              for file in public[slug].notes._contents
+                li: a(href="/#{slug}/notes/#{file}") #{file}
