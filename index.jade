@@ -17,3 +17,8 @@ h1 Mathematics Part III
               ul
                 for file in public[slug].notes._contents
                   li: a(href="/#{slug}/notes/#{file}") #{file}
+        .panel-footer
+          .row: .col-xs-12
+            span= dir.sheet + " "
+            span.label.label-primary= dir.class
+          .row: .col-xs-12.text-muted= dir.note

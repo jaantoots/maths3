@@ -1,22 +1,33 @@
 {
-    "gr": {
-        "title": "General Relativity",
-        "lectures": "MWF 10 MR2"
-    },
-    "msm": {
-        "title": "Modern Statistical Methods",
-        "lectures": "MWF 11 MR13"
-    },
     "qc": {
         "title": "Quantum Computation",
-        "lectures": "TuTh 9 MR14"
-    },
-    "qft": {
-        "title": "Quantum Field Theory",
-        "lectures": "TuTh 12 MR2"
+        "lectures": "TuTh 9 MR14",
+        "sheet": "Example sheet 1"
     },
     "sym": {
         "title": "Symmetries, Fields and Particles",
-        "lectures": "TuTh 10 MR2"
+        "lectures": "TuTh 10 MR2",
+        "sheet": "Example sheet 1"
+    },
+    "qft": {
+        "title": "Quantum Field Theory",
+        "lectures": "TuTh 12 MR2",
+        "class": "Fri 4 Nov 14:00 MR11",
+        "sheet": "Example sheet 1",
+        "note": "Qu 3 & 7. Mon 31 Oct. DAMTP T"
+    },
+    "gr": {
+        "title": "General Relativity",
+        "lectures": "MWF 10 MR2",
+        "class": "Thu 27 Oct 14:00 MR3",
+        "sheet": "Example sheet 1",
+        "note": "Qu 1b & 10. Wed 26 Oct 13:00. DAMTP K"
+    },
+    "msm": {
+        "title": "Modern Statistical Methods",
+        "lectures": "MWF 11 MR13",
+        "class": "Fri 28 Oct 14:30 MR14",
+        "sheet": "Example sheet 1",
+        "note": "Qu ?. Wed 26 Oct"
     }
 }
