@@ -4,12 +4,16 @@ h1 Mathematics Part III
 .row
   for dir, slug in public._data
     .col-md-4.col-sm-6.col-xs-12
-      +panel(dir.title)
-        ul
-          for file in public[slug]._contents
-            li: a(href="/#{slug}/#{file}") #{file}
-          li: a(href="##{slug}-notes" data-toggle="collapse" role="button") notes/
-          .collapse(id="#{slug}-notes")
-            ul
-              for file in public[slug].notes._contents
-                li: a(href="/#{slug}/notes/#{file}") #{file}
+      +panel()
+        .panel-heading
+          span= dir.title + " "
+          span.label.label-default= dir.lectures
+        .panel-body
+          ul
+            for file in public[slug]._contents
+              li: a(href="/#{slug}/#{file}") #{file}
+            li: a(href="##{slug}-notes" data-toggle="collapse" role="button") notes/
+            .collapse(id="#{slug}-notes")
+              ul
+                for file in public[slug].notes._contents
+                  li: a(href="/#{slug}/notes/#{file}") #{file}

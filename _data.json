@@ -1,17 +1,22 @@
 {
     "gr": {
-        "title": "General Relativity"
+        "title": "General Relativity",
+        "lectures": "MWF 10 MR2"
     },
     "msm": {
-        "title": "Modern Statistical Methods"
+        "title": "Modern Statistical Methods",
+        "lectures": "MWF 11 MR13"
     },
     "qc": {
-        "title": "Quantum Computation"
+        "title": "Quantum Computation",
+        "lectures": "TuTh 9 MR14"
     },
     "qft": {
-        "title": "Quantum Field Theory"
+        "title": "Quantum Field Theory",
+        "lectures": "TuTh 12 MR2"
     },
     "sym": {
-        "title": "Symmetries, Fields and Particles"
+        "title": "Symmetries, Fields and Particles",
+        "lectures": "TuTh 10 MR2"
     }
 }
