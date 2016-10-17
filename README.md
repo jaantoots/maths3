@@ -12,3 +12,10 @@ example sheets follow DAMTP naming where applicable.
 - [General Relativity](/gr)
 - [Modern Statistical Methods](/msm)
 
+## Notes
+
+Run Harp to serve the [project site](http://localhost:9000/):
+
+```shell
+harp server -i 127.0.0.1
+```
