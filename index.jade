@@ -5,7 +5,7 @@ h1 Mathematics Part III
   for dir, slug in public._data
     .col-md-4.col-sm-6.col-xs-12
       +panel()
-        .panel-heading
+        .panel-heading: h3.panel-title
           if dir.webpage
             span: a(href=dir.webpage)= dir.title
           else
