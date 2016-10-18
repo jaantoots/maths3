@@ -26,6 +26,7 @@
     },
     "msm": {
         "title": "Modern Statistical Methods",
+        "webpage": "http://www.statslab.cam.ac.uk/~rds37/modern_stat_methods.html",
         "lectures": "MWF 11 MR13",
         "class": "Fri 28 Oct 14:30 MR14",
         "sheet": "Example sheet 1",
