@@ -20,5 +20,8 @@ h1 Mathematics Part III
         .panel-footer
           .row: .col-xs-12
             span= dir.sheet + " "
-            span.label.label-primary= dir.class
+            if dir.done
+              span.label.label-success= dir.class
+            else
+              span.label.label-primary= dir.class
           .row: .col-xs-12.text-muted= dir.note

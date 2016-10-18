@@ -14,7 +14,8 @@
         "lectures": "TuTh 12 MR2",
         "class": "Fri 4 Nov 14:00 MR11",
         "sheet": "Example sheet 1",
-        "note": "Qu 3 & 7. Mon 31 Oct. DAMTP T"
+        "note": "Qu 3 & 7. Mon 31 Oct. DAMTP T",
+        "done": true
     },
     "gr": {
         "title": "General Relativity",
