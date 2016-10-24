@@ -24,7 +24,8 @@
         "lectures": "MWF 10 MR2",
         "class": "Thu 27 Oct 14:00 MR3",
         "sheet": "Example sheet 1",
-        "note": "Qu 1b & 10. Wed 26 Oct 13:00. DAMTP K"
+        "note": "Qu 1b & 10. Wed 26 Oct 13:00. DAMTP K",
+        "done": true
     },
     "msm": {
         "title": "Modern Statistical Methods",
