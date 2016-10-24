@@ -1,31 +1,33 @@
 include _mixins
 h1 Mathematics Part III
 
-.row
-  for dir, slug in public._data
-    .col-md-4.col-sm-6.col-xs-12
-      +panel()
-        .panel-heading: h3.panel-title
-          if dir.webpage
-            span: a(href=dir.webpage)= dir.title
-          else
-            span= dir.title
-          span= " "
-          span.label.label-default= dir.lectures
-        .panel-body
-          ul
-            for file in public[slug]._contents
-              li: a(href="/#{slug}/#{file}")= file
-            li: a(href="##{slug}-notes" data-toggle="collapse") notes/
-            .collapse(id="#{slug}-notes")
-              ul
-                for file in public[slug].notes._contents
-                  li: a(href="/#{slug}/notes/#{file}")= file
-        .panel-footer
-          .row: .col-xs-12
-            span= dir.sheet + " "
-            if dir.done
-              span.label.label-success= dir.class
+for row in [["qc", "sym", "qft"], ["gr", "msm"]]
+  .row
+    for slug in row
+      - var dir = public._data[slug]
+      .col-md-4.col-xs-12
+        +panel()
+          .panel-heading: h3.panel-title
+            if dir.webpage
+              span: a(href=dir.webpage)= dir.title
             else
-              span.label.label-primary= dir.class
-          .row: .col-xs-12.text-muted= dir.note
+              span= dir.title
+            span= " "
+            span.label.label-default= dir.lectures
+          .panel-body
+            ul
+              for file in public[slug]._contents
+                li: a(href="/#{slug}/#{file}")= file
+              li: a(href="##{slug}-notes" data-toggle="collapse") notes/
+              .collapse(id="#{slug}-notes")
+                ul
+                  for file in public[slug].notes._contents
+                    li: a(href="/#{slug}/notes/#{file}")= file
+          .panel-footer
+            .row: .col-xs-12
+              span= dir.sheet + " "
+              if dir.done
+                span.label.label-success= dir.class
+              else
+                span.label.label-primary= dir.class
+            .row: .col-xs-12.text-muted= dir.note
