@@ -7,7 +7,9 @@
     "sym": {
         "title": "Symmetries, Fields and Particles",
         "lectures": "TuTh 10 MR2",
-        "sheet": "Example sheet 1"
+        "class": "Thu 3 Nov 14:00 MR21",
+        "sheet": "Example sheet 1",
+        "done": true
     },
     "qft": {
         "title": "Quantum Field Theory",
