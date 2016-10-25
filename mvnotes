@@ -11,6 +11,8 @@ for dir in $(dirname "$0")/*; do
                 if [ ! -d "$notes" ]; then
                     mkdir "$notes"
                 fi
+                echo "$(basename "$file"):" \
+                     "$(identify "$file" | grep -c "$(basename "$file")")"
                 mv -iv "$file" "$notes"
             fi
         done
