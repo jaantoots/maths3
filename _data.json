@@ -34,6 +34,7 @@
         "lectures": "MWF 11 MR13",
         "class": "Fri 28 Oct 14:30 MR14",
         "sheet": "Example sheet 1",
-        "note": "Qu 3 & 10. Wed 26 Oct 14:00"
+        "note": "Qu 3 & 10. Wed 26 Oct 14:00",
+        "done": true
     }
 }
