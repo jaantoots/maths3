@@ -4,7 +4,7 @@
 for dir in $(dirname "$0")/*; do
     if [ -d "$dir" ]; then
         course=$(basename "$dir")
-        notes="$dir/notes"
+        notes="$dir"
         for file in ~/Downloads/*; do
             if [ -f "$file" ] \
                    && [[ $(basename "$file") =~ $course[0-9][0-9].pdf ]]; then
