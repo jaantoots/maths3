@@ -1,36 +1,44 @@
-include _mixins
 h1 Mathematics Part III
 
-for row in [["qc", "sym", "qft"], ["gr", "msm"]]
+for row in [["sym", "qft"], ["gr", "msm"]]
   .row
     for slug in row
       - var dir = public._data[slug]
-      .col-md-4.col-xs-12
-        +panel()
+      .col-md-6.col-xs-12
+        .panel.panel-default
           .panel-heading: h3.panel-title
-            if dir.webpage
-              span: a(href=dir.webpage)= dir.title
-            else
-              span= dir.title
-            span= " "
-            span.label.label-default= dir.lectures
-          .panel-body
-            ul.list-unstyled
-              for file in public[slug]._contents
-                li: a(href="/#{slug}/#{file}")= file
-              li: a(href="##{slug}-notes" data-toggle="collapse") notes/
-              .collapse(id="#{slug}-notes")
-                ul
-                  for file in public[slug].notes._contents
-                    li: a(href="/#{slug}/notes/#{file}")= file
-          .panel-footer
-            .row: .col-xs-12
-              span= dir.sheet + " "
-              if dir.done
-                span.label.label-success= dir.class
+            span
+              if dir.webpage
+                a(href=dir.webpage)= dir.title
               else
-                span.label.label-primary= dir.class
-            .row: .col-xs-12.text-muted= dir.note
+                = dir.title
+            span.label.label-default.lectures= dir.lectures
+          .panel-body
+            h4: a(href=dir.notes) Lecture notes
+            h4 Examples
+            .list-group
+              for sheet, number in dir.sheets
+                .list-group-item
+                  h5.list-group-item-heading
+                    a(href=sheet.url) Example sheet #{number}
+                    if sheet.archive
+                      span.label.label-default.class= sheet.class
+                    else if sheet.done
+                      span.label.label-success.class= sheet.class
+                    else
+                      span.label.label-primary.class= sheet.class
+                  if sheet.note || sheet.sol
+                    .list-group-item-text: .row
+                      .col-md-9.col-xs-12
+                        .text-muted= sheet.note
+                      .col-md-3.col-xs-12
+                        if sheet.sol
+                          .text-right: a(href=sheet.sol) Solutions
+            h4: a(href="##{slug}-notes" data-toggle="collapse") Handwritten notes
+            .collapse(id="#{slug}-notes")
+              ul
+                for file in public[slug].notes._contents
+                  li: a(href="/#{slug}/notes/#{file}")= file
 
 h2 Notes
 

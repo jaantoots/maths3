@@ -1,39 +1,98 @@
 {
-    "qc": {
-        "title": "Quantum Computation",
-        "lectures": "TuTh 9 MR9",
-        "class": "Wed 2 Nov 14:00 MR9",
-        "sheet": "Example sheet 1"
-    },
     "sym": {
         "title": "Symmetries, Fields and Particles",
         "lectures": "TuTh 10 MR2",
-        "class": "Thu 3 Nov 14:00 MR21",
-        "sheet": "Example sheet 1",
-        "done": true
+        "sheets": {
+            "1": {
+                "url": "http://www.damtp.cam.ac.uk/user/examples/3P2a.pdf",
+                "class": "Thu 3 Nov 14:00 MR21",
+                "done": true
+            },
+            "2": {
+                "url": "http://www.damtp.cam.ac.uk/user/examples/3P2b.pdf"
+            },
+            "3": {
+                "url": "http://www.damtp.cam.ac.uk/user/examples/3P2c.pdf"
+            },
+            "4": {
+                "url": "http://www.damtp.cam.ac.uk/user/examples/3P2d.pdf"
+            }
+        },
+        "notes": "http://www.damtp.cam.ac.uk/user/examples/3P2.pdf"
     },
     "qft": {
         "title": "Quantum Field Theory",
         "lectures": "TuTh 12 MR2",
-        "class": "Fri 4 Nov 14:00 MR11",
-        "sheet": "Example sheet 1",
-        "note": "Qu 3 & 7. Mon 31 Oct. DAMTP T",
-        "done": true
+        "sheets": {
+            "1": {
+                "url": "http://www.damtp.cam.ac.uk/user/examples/3P1a.pdf",
+                "class": "Fri 4 Nov 14:00 MR11",
+                "note": "Qu 3 & 7. Mon 31 Oct. DAMTP T",
+                "done": true
+            },
+            "2": {
+                "url": "http://www.damtp.cam.ac.uk/user/examples/3P1b.pdf"
+            },
+            "3": {
+                "url": "http://www.damtp.cam.ac.uk/user/examples/3P1c.pdf"
+            },
+            "4": {
+                "url": "http://www.damtp.cam.ac.uk/user/examples/3P1d.pdf"
+            }
+        },
+        "notes": "http://www.damtp.cam.ac.uk/user/tong/qft/qft.pdf"
     },
     "gr": {
         "title": "General Relativity",
         "lectures": "MWF 10 MR2",
-        "class": "Thu 10 Nov 14:00 MR3",
-        "sheet": "Example sheet 2",
-        "note": "Qu ?. Wed 9 Nov 13:00. DAMTP K",
-        "done": false
+        "sheets": {
+            "1": {
+                "url": "http://www.damtp.cam.ac.uk/user/examples/3R1a.pdf",
+                "class": "Thu 27 Oct 14:00 MR3",
+                "note": "Qu 1b & 10. Wed 26 Oct 13:00. DAMTP K",
+                "done": true,
+                "archive": true
+            },
+            "2": {
+                "url": "http://www.damtp.cam.ac.uk/user/examples/3R1b.pdf",
+                "class": "Thu 10 Nov 14:00 MR3",
+                "note": "Qu ?. Wed 9 Nov 13:00. DAMTP K",
+                "done": false
+            },
+            "3": {
+                "url": "http://www.damtp.cam.ac.uk/user/examples/3R1c.pdf"
+            },
+            "4": {
+                "url": "http://www.damtp.cam.ac.uk/user/examples/3R1d.pdf"
+            }
+        },
+        "notes": "http://www.damtp.cam.ac.uk/user/hsr1000/lecturenotes_2012.pdf"
     },
     "msm": {
         "title": "Modern Statistical Methods",
         "webpage": "http://www.statslab.cam.ac.uk/~rds37/modern_stat_methods.html",
         "lectures": "MWF 11 MR13",
-        "class": "Mon 14 Nov 13:30 MR13",
-        "sheet": "Example sheet 2",
-        "done": false
+        "sheets": {
+            "1": {
+                "url": "http://www.statslab.cam.ac.uk/~rds37/teaching/modern_stat_methods/Qu1.pdf",
+                "sol": "http://www.statslab.cam.ac.uk/~rds37/teaching/modern_stat_methods/Sol1.pdf",
+                "class": "Fri 28 Oct 14:30 MR14",
+                "note": "Qu 3 & 10. Wed 26 Oct 14:00",
+                "done": true,
+                "archive": true
+            },
+            "2": {
+                "url": "http://www.statslab.cam.ac.uk/~rds37/teaching/modern_stat_methods/Qu2.pdf",
+                "class": "Mon 14 Nov 13:30 MR13",
+                "done": false
+            },
+            "3": {
+                "url": "http://www.statslab.cam.ac.uk/~rds37/teaching/modern_stat_methods/Qu3.pdf"
+            },
+            "4": {
+                "url": "http://www.statslab.cam.ac.uk/~rds37/teaching/modern_stat_methods/Qu4.pdf"
+            }
+        },
+        "notes": "http://www.statslab.cam.ac.uk/~rds37/teaching/modern_stat_methods/notes_MSM.pdf"
     }
 }
