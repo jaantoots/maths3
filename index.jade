@@ -40,11 +40,4 @@ for row in [["sym", "qft"], ["gr", "msm"]]
                 for file in public[slug].notes._contents
                   li: a(href="/#{slug}/notes/#{file}")= file
 
-h2 Notes
-
-p
-  a(href="https://www.maths.cam.ac.uk/sites/www.maths.cam.ac.uk/files/pre2014/postgrad/mathiii/SA.pdf") Self-Assessment Form
-  |  (
-  a(href="SA.jt551.pdf") jt551
-  | )
-p: a(href="phd") Talk: Applying for PhDs (26 Oct 2016)
+!= partial("notes")
