@@ -38,6 +38,6 @@ for row in [["sym", "qft"], ["gr", "msm"]]
             .collapse(id="#{slug}-notes")
               ul
                 for file in public[slug]._contents
-                  li: a(href="/#{slug}/#{file}")= file
+                  li: a(href="#{slug}/#{file}")= file
 
 != partial("notes")
