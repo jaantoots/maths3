@@ -14,12 +14,12 @@ for row in [["sym", "qft"], ["gr", "msm"]]
                 = dir.title
             span.label.label-default.lectures= dir.lectures
           .panel-body
-            h4: a(href=dir.notes) Lecture notes
-            h4 Examples
+            h5: a(href=dir.notes) Lecture notes
+            h5 Examples
             .list-group
               for sheet, number in dir.sheets
                 .list-group-item
-                  h5.list-group-item-heading
+                  h6.list-group-item-heading
                     a(href=sheet.url) Example sheet #{number}
                     if sheet.archive
                       span.label.label-default.class= sheet.class
@@ -34,7 +34,7 @@ for row in [["sym", "qft"], ["gr", "msm"]]
                       .col-md-3.col-xs-12
                         if sheet.sol
                           .text-right: a(href=sheet.sol) Solutions
-            h4: a(href="##{slug}-notes" data-toggle="collapse") Handwritten notes and answers
+            h5: a(href="##{slug}-notes" data-toggle="collapse") Handwritten notes and answers
             .collapse(id="#{slug}-notes")
               ul
                 for file in public[slug]._contents
