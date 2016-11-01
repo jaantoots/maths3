@@ -34,10 +34,10 @@ for row in [["sym", "qft"], ["gr", "msm"]]
                       .col-md-3.col-xs-12
                         if sheet.sol
                           .text-right: a(href=sheet.sol) Solutions
-            h4: a(href="##{slug}-notes" data-toggle="collapse") Handwritten notes
+            h4: a(href="##{slug}-notes" data-toggle="collapse") Handwritten notes and answers
             .collapse(id="#{slug}-notes")
               ul
-                for file in public[slug].notes._contents
-                  li: a(href="/#{slug}/notes/#{file}")= file
+                for file in public[slug]._contents
+                  li: a(href="/#{slug}/#{file}")= file
 
 != partial("notes")
