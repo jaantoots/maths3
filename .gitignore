@@ -3,3 +3,6 @@ _env/
 
 # build directory
 _build/
+
+# local copies
+_local/
