@@ -45,14 +45,13 @@ html
     .container
       != yield
     footer.footer
-      .container
+      .container.text-center
         a(rel="license" href="https://creativecommons.org/licenses/by/4.0/" title="Creative Commons Attribution 4.0 International license")
           i.cc.cc-cc
           i.cc.cc-by
-          i.cc.cc-sa
-        |  The content on this site is licensed under a 
-        a(rel="license" href="http://creativecommons.org/licenses/by/4.0/") Creative Commons Attribution 4.0 International License
-        | .
+        span.hidden-xs  The content on this site is licensed under a 
+          a(rel="license" href="http://creativecommons.org/licenses/by/4.0/") Creative Commons Attribution 4.0 International License
+          | .
     script(src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js")
     script(src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
       integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous")
