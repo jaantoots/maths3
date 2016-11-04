@@ -6,7 +6,8 @@
             "1": {
                 "url": "http://www.damtp.cam.ac.uk/user/examples/3P2a.pdf",
                 "class": "Thu 3 Nov 14:00 MR21",
-                "done": true
+                "done": true,
+                "archive": true
             },
             "2": {
                 "url": "http://www.damtp.cam.ac.uk/user/examples/3P2b.pdf"
