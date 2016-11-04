@@ -13,8 +13,20 @@ example sheets are linked.
 
 ## Notes
 
+Serving or compiling the website requires Harp:
+
+```shell
+npm install -g harp
+```
+
 Run Harp to serve the [project site](http://localhost:9000/):
 
 ```shell
 harp server -i 127.0.0.1
+```
+
+To compile to `gh-pages` branch use the build script:
+
+```shell
+./build
 ```
