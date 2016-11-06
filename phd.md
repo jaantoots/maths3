@@ -2,7 +2,7 @@
 
 ## Cambridge PhD
 
-1. Talk to advisor→ arrange during first interview
+1. Talk to advisor: arrange during first interview
 2. Go and chat with people you might work with
 3. Apply: for references, use people you know well
 4. We get back to you (don't ask people in the year above):
