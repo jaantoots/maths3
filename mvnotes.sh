@@ -4,16 +4,12 @@
 for dir in $(dirname "$0")/*; do
     if [ -d "$dir" ]; then
         course=$(basename "$dir")
-        notes="$dir"
         for file in ~/Downloads/*; do
             if [ -f "$file" ] \
                    && [[ $(basename "$file") =~ $course[0-9][0-9].pdf ]]; then
-                if [ ! -d "$notes" ]; then
-                    mkdir "$notes"
-                fi
                 echo "$(basename "$file"):" \
                      "$(identify "$file" | grep -c "$(basename "$file")")"
-                mv -iv "$file" "$notes"
+                mv -iv "$file" "$dir"
             fi
         done
     fi

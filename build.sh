@@ -16,7 +16,7 @@ git add -f "$build"
 tree=$(git write-tree --prefix="_build/$name")
 parent=$(git rev-list -1 gh-pages)
 commit=$(git commit-tree -p "$parent" -m "Build website $name" "$tree")
-git br -f gh-pages "$commit"
+git branch -f gh-pages "$commit"
 
 echo "Cleaning up..." 1>&2
 git reset
