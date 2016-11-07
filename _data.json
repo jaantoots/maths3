@@ -10,7 +10,8 @@
                 "archive": true
             },
             "2": {
-                "url": "http://www.damtp.cam.ac.uk/user/examples/3P2b.pdf"
+                "url": "http://www.damtp.cam.ac.uk/user/examples/3P2b.pdf",
+                "class": "Thu 17 Nov 14:00 MR9"
             },
             "3": {
                 "url": "http://www.damtp.cam.ac.uk/user/examples/3P2c.pdf"
