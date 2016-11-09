@@ -1,17 +1,18 @@
 # Mathematics Part III
 
-Materials are arranged by courses into directories. All handwritten
-lecture notes are scanned into `*/notes/`. Official lecture notes and
-example sheets are linked.
+Information and materials for my Mathematics Part III courses. All
+handwritten lecture notes and example sheet answers are scanned into
+course directories. Official lecture notes and example sheets are
+linked from department pages.
 
 ## Michaelmas term
 
-- [Symmetries, Fields and Particles](/sym)
-- [Quantum Field Theory](/qft)
-- [General Relativity](/gr)
-- [Modern Statistical Methods](/msm)
+- [Symmetries, Fields and Particles](sym)
+- [Quantum Field Theory](qft)
+- [General Relativity](gr)
+- [Modern Statistical Methods](msm)
 
-## Notes
+## Usage notes
 
 Serving or compiling the website requires Harp:
 
@@ -19,14 +20,14 @@ Serving or compiling the website requires Harp:
 npm install -g harp
 ```
 
-Run Harp to serve the [project site](http://localhost:9000/):
+Run Harp to serve the project site (locally):
 
 ```shell
 harp server -i 127.0.0.1
 ```
 
-To compile to `gh-pages` branch use the build script:
+Use the build script to compile to `gh-pages` branch:
 
 ```shell
-./build
+./build.sh
 ```
