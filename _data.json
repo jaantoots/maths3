@@ -29,22 +29,22 @@
             "1": {
                 "url": "http://www.damtp.cam.ac.uk/user/examples/3P1a.pdf",
                 "class": "Fri 4 Nov 14:00 MR11",
-                "note": "Qu 3 & 7. Mon 31 Oct. DAMTP T",
+                "note": "Qu 3 & 7. Mon 31 Oct",
                 "done": true,
                 "archive": true
             },
             "2": {
                 "url": "http://www.damtp.cam.ac.uk/user/examples/3P1b.pdf",
                 "class": "Tue 15 Nov 13:30 MR11",
-                "note": "Qu 4 & 6. DAMTP T"
+                "note": "Qu 4 & 6"
             },
             "3": {
                 "url": "http://www.damtp.cam.ac.uk/user/examples/3P1c.pdf",
-                "note": "Qu 4 & 8. DAMTP T"
+                "note": "Qu 4 & 8"
             },
             "4": {
                 "url": "http://www.damtp.cam.ac.uk/user/examples/3P1d.pdf",
-                "note": "Qu 3 & 4. DAMTP T"
+                "note": "Qu 3 & 4"
             }
         },
         "notes": "http://www.damtp.cam.ac.uk/user/tong/qft/qft.pdf"
@@ -56,14 +56,14 @@
             "1": {
                 "url": "http://www.damtp.cam.ac.uk/user/examples/3R1a.pdf",
                 "class": "Thu 27 Oct 14:00 MR3",
-                "note": "Qu 1b & 10. Wed 26 Oct 13:00. DAMTP K",
+                "note": "Qu 1b & 10. Wed 26 Oct 13:00",
                 "done": true,
                 "archive": true
             },
             "2": {
                 "url": "http://www.damtp.cam.ac.uk/user/examples/3R1b.pdf",
                 "class": "Thu 10 Nov 14:00 MR3",
-                "note": "Qu 9 & 10. Wed 9 Nov 13:00. DAMTP K",
+                "note": "Qu 9 & 10. Wed 9 Nov 13:00",
                 "done": true,
                 "archive": true
             },

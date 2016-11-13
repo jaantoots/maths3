@@ -29,9 +29,9 @@ for row in [["sym", "qft"], ["gr", "msm"]]
                       span.label.label-primary.class= sheet.class
                   if sheet.note || sheet.sol
                     .list-group-item-text: .row
-                      .col-md-9.col-xs-12
+                      .col-xs-9
                         .text-muted= sheet.note
-                      .col-md-3.col-xs-12
+                      .col-xs-3
                         if sheet.sol
                           .text-right: a(href=sheet.sol) Solutions
             h5: a(href="##{slug}-notes" data-toggle="collapse") Handwritten notes and answers
