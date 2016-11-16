@@ -1,4 +1,12 @@
-h1 Mathematics Part III
+mixin repo
+  a(href="https://github.com/jaantoots/maths3")
+    i.fa.fa-github.fa-fw
+ul.list-unstyled.flex
+  li: h1 Mathematics Part III
+    span.visible-xs-inline
+      +repo
+  li.hidden-xs: h1
+    +repo
 
 for row in [["sym", "qft"], ["gr", "msm"]]
   .row
