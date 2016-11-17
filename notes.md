@@ -5,3 +5,5 @@
 [Progress Interview Form (Michaelmas)](https://www.maths.cam.ac.uk/sites/www.maths.cam.ac.uk/files/interview1revised.pdf)
 
 [Talk: Applying for PhDs (26 Oct 2016)](phd)
+
+[Exam timetable](https://www.maths.cam.ac.uk/current-students-master-mathematics-master-advanced-studypart-iii-mathematical-tripos/Timetable.pdf)
