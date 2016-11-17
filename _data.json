@@ -103,11 +103,13 @@
             },
             "3": {
                 "url": "http://www.statslab.cam.ac.uk/~rds37/teaching/modern_stat_methods/Qu3.pdf",
-                "class": "Mon 28 Nov 13:30 MR14",
+                "class": "Mon 28 Nov 13:30 MR13",
+                "note": "Qu 1 & 4",
                 "done": false
             },
             "4": {
-                "url": "http://www.statslab.cam.ac.uk/~rds37/teaching/modern_stat_methods/Qu4.pdf"
+                "url": "http://www.statslab.cam.ac.uk/~rds37/teaching/modern_stat_methods/Qu4.pdf",
+                "class": "Fri 20 Jan 14:00 MR5"
             }
         },
         "notes": "http://www.statslab.cam.ac.uk/~rds37/teaching/modern_stat_methods/notes_MSM.pdf"
