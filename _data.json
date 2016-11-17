@@ -69,7 +69,10 @@
                 "archive": true
             },
             "3": {
-                "url": "http://www.damtp.cam.ac.uk/user/examples/3R1c.pdf"
+                "url": "http://www.damtp.cam.ac.uk/user/examples/3R1c.pdf",
+                "class": "Thu 24 Nov 14:00 MR3",
+                "done": false,
+                "archive": false
             },
             "4": {
                 "url": "http://www.damtp.cam.ac.uk/user/examples/3R1d.pdf"
