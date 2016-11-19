@@ -12,7 +12,8 @@
             "2": {
                 "url": "http://www.damtp.cam.ac.uk/user/examples/3P2b.pdf",
                 "class": "Thu 17 Nov 14:00 MR9",
-                "done": true
+                "done": true,
+                "archive": true
             },
             "3": {
                 "url": "http://www.damtp.cam.ac.uk/user/examples/3P2c.pdf"
@@ -38,7 +39,8 @@
                 "url": "http://www.damtp.cam.ac.uk/user/examples/3P1b.pdf",
                 "class": "Tue 15 Nov 13:30 MR11",
                 "note": "Qu 4 & 6",
-                "done": true
+                "done": true,
+                "archive": true
             },
             "3": {
                 "url": "http://www.damtp.cam.ac.uk/user/examples/3P1c.pdf",
