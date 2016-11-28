@@ -118,7 +118,8 @@
             },
             "4": {
                 "url": "http://www.statslab.cam.ac.uk/~rds37/teaching/modern_stat_methods/Qu4.pdf",
-                "class": "Fri 20 Jan 14:00 MR5"
+                "class": "Fri 20 Jan 14:00 MR5",
+                "note": "Qu 3 & 10"
             }
         },
         "notes": "http://www.statslab.cam.ac.uk/~rds37/teaching/modern_stat_methods/notes_MSM.pdf"
