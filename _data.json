@@ -22,7 +22,10 @@
                 "archive": false
             },
             "4": {
-                "url": "http://www.damtp.cam.ac.uk/user/examples/3P2d.pdf"
+                "url": "http://www.damtp.cam.ac.uk/user/examples/3P2d.pdf",
+                "class": "Wed 18 Jan 14:00 MR15",
+                "done": false,
+                "archive": false
             }
         },
         "notes": "http://www.damtp.cam.ac.uk/user/examples/3P2.pdf"
