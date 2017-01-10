@@ -56,7 +56,8 @@
             },
             "4": {
                 "url": "http://www.damtp.cam.ac.uk/user/examples/3P1d.pdf",
-                "note": "Qu 3 & 4"
+                "class": "Fri 20 Jan 16:00 MR11",
+                "note": "Qu 3 & 4. Wed 18 Jan"
             }
         },
         "notes": "http://www.damtp.cam.ac.uk/user/tong/qft/qft.pdf"
