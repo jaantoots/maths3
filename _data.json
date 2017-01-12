@@ -18,7 +18,7 @@
             "3": {
                 "url": "http://www.damtp.cam.ac.uk/user/examples/3P2c.pdf",
                 "class": "Fri 2 Dec 14:00 MR21",
-                "done": false,
+                "done": true,
                 "archive": false
             },
             "4": {
