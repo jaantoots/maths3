@@ -52,7 +52,8 @@
                 "url": "http://www.damtp.cam.ac.uk/user/examples/3P1c.pdf",
                 "class": "Thu 1 Dec 16:00 MR16",
                 "note": "Qu 4 & 8. Wed 30 Nov",
-                "done": true
+                "done": true,
+                "archive": true
             },
             "4": {
                 "url": "http://www.damtp.cam.ac.uk/user/examples/3P1d.pdf",
