@@ -1,3 +1,5 @@
+include _mixins
+
 mixin repo
   a(href="https://github.com/jaantoots/maths3")
     i.fa.fa-github.fa-fw
@@ -8,44 +10,6 @@ ul.list-unstyled.flex
   li.hidden-xs: h1
     +repo
 
-for row in [["sym", "qft"], ["gr", "msm"]]
-  .row
-    for slug in row
-      - var dir = public._data[slug]
-      .col-md-6.col-xs-12
-        .panel.panel-default
-          .panel-heading: h3.panel-title
-            span
-              if dir.webpage
-                a(href=dir.webpage)= dir.title
-              else
-                = dir.title
-            span.label.label-default.lectures= dir.lectures
-          .panel-body
-            h5: a(href=dir.notes) Lecture notes
-            h5 Examples
-            .list-group
-              for sheet, number in dir.sheets
-                .list-group-item
-                  h6.list-group-item-heading
-                    a(href=sheet.url) Example sheet #{number}
-                    if sheet.archive
-                      span.label.label-default.class= sheet.class
-                    else if sheet.done
-                      span.label.label-success.class= sheet.class
-                    else
-                      span.label.label-primary.class= sheet.class
-                  if sheet.note || sheet.sol
-                    .list-group-item-text: .row
-                      .col-xs-9
-                        .text-muted= sheet.note
-                      .col-xs-3
-                        if sheet.sol
-                          .text-right: a(href=sheet.sol) Solutions
-            h5: a(href="##{slug}-notes" data-toggle="collapse") Handwritten notes and answers
-            .collapse(id="#{slug}-notes")
-              ul
-                for file in public[slug]._contents
-                  li: a(href="#{slug}/#{file}")= file
++courses(["sym", "qft"], ["gr", "msm"])
 
 != partial("notes")
