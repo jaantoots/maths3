@@ -5,6 +5,13 @@ handwritten lecture notes and example sheet answers are scanned into
 course directories. Official lecture notes and example sheets are
 linked from department pages.
 
+## Lent term
+
+- [Topics in Convex Optimisation](tco)
+- [String Theory](st)
+- [Standard Model](sm)
+- [Advanced Quantum Field Theory](aqft)
+
 ## Michaelmas term
 
 - [Symmetries, Fields and Particles](sym)
