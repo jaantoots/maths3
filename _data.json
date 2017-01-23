@@ -1,7 +1,7 @@
 {
     "sym": {
         "title": "Symmetries, Fields and Particles",
-        "lectures": "TuTh 10 MR2",
+        "lectures": "TuThS 10 MR2",
         "sheets": {
             "1": {
                 "url": "http://www.damtp.cam.ac.uk/user/examples/3P2a.pdf",
@@ -32,7 +32,8 @@
     },
     "qft": {
         "title": "Quantum Field Theory",
-        "lectures": "TuTh 12 MR2",
+        "webpage": "http://www.damtp.cam.ac.uk/user/tong/qft.html",
+        "lectures": "TuThS 12 MR2",
         "sheets": {
             "1": {
                 "url": "http://www.damtp.cam.ac.uk/user/examples/3P1a.pdf",
