@@ -13,7 +13,15 @@ mixin courses(...rows)
                   = dir.title
               span.label.label-default.lectures= dir.lectures
             .panel-body
-              h5: a(href=dir.notes) Lecture notes
+              h5
+                if dir.notes
+                  a(href=dir.notes) Lecture notes
+                else
+                  | Lecture notes
+                if dir.altnotes
+                  for url, notes in dir.altnotes
+                    |  
+                    a(href=url) #{notes}
               h5 Examples
               .list-group
                 for sheet, number in dir.sheets

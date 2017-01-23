@@ -145,7 +145,9 @@
         "lectures": "TuTh 9 MR12",
         "sheets": {
         },
-        "notes": "http://www.damtp.cam.ac.uk/user/hf323/lent2017_topics_convex_optimisation/lecture1.pdf"
+        "altnotes": {
+            "1": "http://www.damtp.cam.ac.uk/user/hf323/lent2017_topics_convex_optimisation/lecture1.pdf"
+        }
     },
     "st": {
         "title": "String Theory",
@@ -161,7 +163,8 @@
             "3": {
                 "url": "http://www.damtp.cam.ac.uk/user/examples/3P6c.pdf"
             }
-        }
+        },
+        "notes": "http://www.damtp.cam.ac.uk/user/tong/string/string.pdf"
     },
     "sm": {
         "title": "Standard Model",
@@ -189,7 +192,14 @@
                 "url": "http://www.damtp.cam.ac.uk/user/dbs26/AQFT/probs4.pdf"
             }
         },
-        "notes": "http://www.damtp.cam.ac.uk/user/cet34/teaching/SM/stdmodel.pdf"
+        "altnotes": {
+            "1": "http://www.damtp.cam.ac.uk/user/dbs26/AQFT/chaps1+2.pdf",
+            "3": "http://www.damtp.cam.ac.uk/user/dbs26/AQFT/chap3.pdf",
+            "4": "http://www.damtp.cam.ac.uk/user/dbs26/AQFT/Ward.pdf",
+            "5": "http://www.damtp.cam.ac.uk/user/dbs26/AQFT/Wilsonchap.pdf",
+            "6": "http://www.damtp.cam.ac.uk/user/dbs26/AQFT/PertRG.pdf",
+            "7": "http://www.damtp.cam.ac.uk/user/dbs26/AQFT/YM.pdf"
+        }
     },
     "phd": {
         "title": "PhD in UK"
