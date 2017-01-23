@@ -10,7 +10,18 @@ ul.list-unstyled.flex
   li.hidden-xs: h1
     +repo
 
-+courses(["tco", "st"], ["sm", "aqft"])
-+courses(["sym", "qft"], ["gr", "msm"])
+ul.nav.nav-tabs(role="tablist")
+  li.active(role="presentation"): a(href="#all" role="tab" data-toggle="tab") All
+  li(role="presentation"): a(href="#lent" role="tab" data-toggle="tab") Lent
+  li(role="presentation"): a(href="#michaelmas" role="tab" data-toggle="tab") Michaelmas
+p
+.tab-content
+  .tab-pane.fade.in.active#all(role="tabpanel")
+    +courses(["tco", "st"], ["sm", "aqft"])
+    +courses(["sym", "qft"], ["gr", "msm"])
+  .tab-pane.fade#lent(role="tabpanel")
+    +courses(["tco", "st"], ["sm", "aqft"])
+  .tab-pane.fade#michaelmas(role="tabpanel")
+    +courses(["sym", "qft"], ["gr", "msm"])
 
 != partial("notes")
