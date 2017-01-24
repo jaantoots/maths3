@@ -16,7 +16,9 @@ courses.each do |dir, course|
   end
   if course['sheets']
     course['sheets'].each do |_, sheet|
-      `wget -nv -N -P _local/#{dir} #{sheet['url']}`
+      if sheet['url']
+        `wget -nv -N -P _local/#{dir} #{sheet['url']}`
+      end
       if sheet['sol']
         `wget -nv -N -P _local/#{dir} #{sheet['sol']}`
       end
