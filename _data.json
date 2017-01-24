@@ -144,6 +144,12 @@
         "webpage": "http://www.damtp.cam.ac.uk/user/hf323/lent2017_topics_convex_optimisation/topics_convex_optimisation.html",
         "lectures": "TuTh 9 MR12",
         "sheets": {
+            "1": {
+            },
+            "2": {
+            },
+            "3": {
+            }
         },
         "altnotes": {
             "1": "http://www.damtp.cam.ac.uk/user/hf323/lent2017_topics_convex_optimisation/lecture1.pdf"
@@ -171,6 +177,14 @@
         "webpage": "http://www.damtp.cam.ac.uk/user/cet34/teaching/SM/",
         "lectures": "MWF 9 MR3",
         "sheets": {
+            "1": {
+            },
+            "2": {
+            },
+            "3": {
+            },
+            "4": {
+            }
         },
         "notes": "http://www.damtp.cam.ac.uk/user/cet34/teaching/SM/stdmodel.pdf"
     },

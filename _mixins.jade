@@ -27,7 +27,10 @@ mixin courses(...rows)
                 for sheet, number in dir.sheets
                   .list-group-item
                     h6.list-group-item-heading
-                      a(href=sheet.url) Example sheet #{number}
+                      if sheet.url
+                        a(href=sheet.url) Example sheet #{number}
+                      else
+                        | Example sheet #{number}
                       if sheet.archive
                         span.label.label-default.class= sheet.class
                       else if sheet.done
