@@ -181,7 +181,9 @@
         "lectures": "MWF 9 MR3",
         "sheets": {
             "1": {
-                "url": "http://www.damtp.cam.ac.uk/user/cet34/teaching/SM/sheet1.pdf"
+                "url": "http://www.damtp.cam.ac.uk/user/cet34/teaching/SM/sheet1.pdf",
+                "class": "Fri 10 Feb 14:00 MR3",
+                "note": "Qu 2 & 4. Thu 9 Feb"
             },
             "2": {
             },
