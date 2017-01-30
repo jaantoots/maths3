@@ -220,6 +220,25 @@
             "7": "http://www.damtp.cam.ac.uk/user/dbs26/AQFT/YM.pdf"
         }
     },
+    "bh": {
+        "title": "Black Holes",
+        "lectures": "MWF 12 MR3",
+        "sheets": {
+            "1": {
+                "url": "http://www.damtp.cam.ac.uk/user/examples/3R3a.pdf"
+            },
+            "2": {
+                "url": "http://www.damtp.cam.ac.uk/user/examples/3R3b.pdf"
+            },
+            "3": {
+                "url": "http://www.damtp.cam.ac.uk/user/examples/3R3c.pdf"
+            },
+            "4": {
+                "url": "http://www.damtp.cam.ac.uk/user/examples/3R3d.pdf"
+            }
+        },
+        "notes": "http://www.damtp.cam.ac.uk/user/hsr1000/black_holes_lectures_2016.pdf"
+    },
     "phd": {
         "title": "PhD in UK"
     }
