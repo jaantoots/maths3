@@ -159,23 +159,6 @@
             "4": "http://www.damtp.cam.ac.uk/user/hf323/lent2017_topics_convex_optimisation/lecture4.pdf"
         }
     },
-    "st": {
-        "title": "String Theory",
-        "webpage": "http://www.damtp.cam.ac.uk/user/tong/string.html",
-        "lectures": "TuThS 10 MR2",
-        "sheets": {
-            "1": {
-                "url": "http://www.damtp.cam.ac.uk/user/examples/3P6a.pdf"
-            },
-            "2": {
-                "url": "http://www.damtp.cam.ac.uk/user/examples/3P6b.pdf"
-            },
-            "3": {
-                "url": "http://www.damtp.cam.ac.uk/user/examples/3P6c.pdf"
-            }
-        },
-        "notes": "http://www.damtp.cam.ac.uk/user/tong/string/string.pdf"
-    },
     "sm": {
         "title": "Standard Model",
         "webpage": "http://www.damtp.cam.ac.uk/user/cet34/teaching/SM/",
