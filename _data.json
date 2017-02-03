@@ -152,6 +152,8 @@
                 "archive": true
             },
             "2": {
+                "class": "Tue 7 Feb 15:00 MR4",
+                "note": "Exercises of Lecture 3"
             },
             "3": {
             }
@@ -160,7 +162,8 @@
             "1": "http://www.damtp.cam.ac.uk/user/hf323/lent2017_topics_convex_optimisation/lecture1.pdf",
             "2": "http://www.damtp.cam.ac.uk/user/hf323/lent2017_topics_convex_optimisation/lecture2.pdf",
             "3": "http://www.damtp.cam.ac.uk/user/hf323/lent2017_topics_convex_optimisation/lecture3.pdf",
-            "4": "http://www.damtp.cam.ac.uk/user/hf323/lent2017_topics_convex_optimisation/lecture4.pdf"
+            "4": "http://www.damtp.cam.ac.uk/user/hf323/lent2017_topics_convex_optimisation/lecture4.pdf",
+            "5": "http://www.damtp.cam.ac.uk/user/hf323/lent2017_topics_convex_optimisation/lecture5.pdf"
         }
     },
     "sm": {
