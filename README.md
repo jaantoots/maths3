@@ -8,9 +8,9 @@ linked from department pages.
 ## Lent term
 
 - [Topics in Convex Optimisation](tco)
-- [String Theory](st)
 - [Standard Model](sm)
 - [Advanced Quantum Field Theory](aqft)
+- [Black Holes](bh)
 
 ## Michaelmas term
 
