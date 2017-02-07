@@ -152,9 +152,11 @@
                 "archive": true
             },
             "2": {
+                "url": "http://www.damtp.cam.ac.uk/user/hf323/lent2017_topics_convex_optimisation/example_class_2.pdf",
                 "class": "Tue 7 Feb 15:00 MR4",
                 "note": "Exercises of Lecture 3",
-                "done": true
+                "done": true,
+                "archive": true
             },
             "3": {
             }
