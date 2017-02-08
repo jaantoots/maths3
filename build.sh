@@ -7,6 +7,8 @@ dir=$(dirname "$0")
 name=$(git rev-list -1 HEAD)
 build="$dir/_build/$name"
 
+find "$dir" -type f -name ".DS_Store" -exec rm {} \;
+
 echo "Build website..." 1>&2
 mkdir -p "$build"
 harp compile "$dir" "$build"
