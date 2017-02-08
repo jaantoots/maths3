@@ -238,7 +238,10 @@
                 "url": "http://www.damtp.cam.ac.uk/user/hsr1000/examples4.pdf"
             }
         },
-        "notes": "http://www.damtp.cam.ac.uk/user/hsr1000/black_holes_lectures_2016.pdf"
+        "notes": "http://www.damtp.cam.ac.uk/user/hsr1000/black_holes_lectures_2016.pdf",
+        "altnotes": {
+            "GR": "http://www.damtp.cam.ac.uk/user/hsr1000/lecturenotes_2012.pdf"
+        }
     },
     "phd": {
         "title": "PhD in UK"
