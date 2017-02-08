@@ -8,6 +8,7 @@ z(l,x) = (1/(2*sqrt(pi))) * ((-1)**l / l!) * (6/x)**((l/2.) + 1/4.) * gamma((l/2
 
 set xlabel '$n$'
 set ylabel '$\mathcal{Z}_n\left(\lambda=\frac{1}{10}\right)$'
+# gnuplot breaks if n>98
 set xrange [90:98]
 set yrange [0.9882:0.9885]
 set samples 9

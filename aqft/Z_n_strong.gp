@@ -11,13 +11,14 @@ set ylabel '$\mathcal{Z}$'
 set xrange [0:1]
 set yrange [0:2]
 set samples 1025
-set key right top maxrows 32
+set key right top
 
 set multiplot
 set parametric
 plot 0.1,t ls 0 notitle
 unset parametric
-plot for [n=1:128] '+' using 1:(sum [l=0:n] z(l, $1)) with lines title sprintf("$n = %d$", n)
+# gnuplot breaks if n>98
+plot for [n=1:98] '+' using 1:(sum [l=0:n] z(l, $1)) with lines title sprintf("$n = %d$", n)
 unset multiplot
 
 set output

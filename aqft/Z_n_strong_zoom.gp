@@ -17,6 +17,7 @@ set multiplot
 set parametric
 plot 0.1,t ls 0 notitle
 unset parametric
+# gnuplot breaks if n>98
 plot for [n=41:98] '+' using 1:(sum [l=0:n] z(l, $1)) with lines title sprintf("$n = %d$", n)
 unset multiplot
 
