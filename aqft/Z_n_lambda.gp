@@ -1,4 +1,4 @@
-set terminal epslatex color standalone "" 10
+set terminal epslatex size 16cm,10cm color standalone "" 10
 
 set output "Z_n_lambda.tex"
 set format x "$%g$"
