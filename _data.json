@@ -200,13 +200,17 @@
             "1": {
                 "url": "http://www.damtp.cam.ac.uk/user/dbs26/AQFT/probs1.pdf",
                 "class": "Fri 10 Feb 14:00 MR21",
-                "note": "Qu 1 & 5"
+                "note": "Qu 1 & 5",
+                "done": true,
+                "archive": true
             },
             "2": {
-                "url": "http://www.damtp.cam.ac.uk/user/dbs26/AQFT/probs2.pdf"
+                "url": "http://www.damtp.cam.ac.uk/user/dbs26/AQFT/probs2.pdf",
+                "class": "Wed 1 Mar"
             },
             "3": {
-                "url": "http://www.damtp.cam.ac.uk/user/dbs26/AQFT/probs3.pdf"
+                "url": "http://www.damtp.cam.ac.uk/user/dbs26/AQFT/probs3.pdf",
+                "class": "Fri 10 Mar"
             },
             "4": {
                 "url": "http://www.damtp.cam.ac.uk/user/dbs26/AQFT/probs4.pdf"
