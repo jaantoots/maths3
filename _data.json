@@ -189,7 +189,8 @@
                 "archive": true
             },
             "2": {
-                "url": "http://www.damtp.cam.ac.uk/user/cet34/teaching/SM/sheet2.pdf"
+                "url": "http://www.damtp.cam.ac.uk/user/cet34/teaching/SM/sheet2.pdf",
+                "class": "Mon 27 Feb 16:00 MR2"
             },
             "3": {
             },
