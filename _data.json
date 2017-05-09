@@ -28,7 +28,8 @@
                 "archive": false
             }
         },
-        "notes": "https://dec41.user.srcf.net/notes/III_M/symmetries_fields_and_particles.pdf"
+        "notes": "https://dec41.user.srcf.net/notes/III_M/symmetries_fields_and_particles.pdf",
+        "status": "primary"
     },
     "qft": {
         "title": "Quantum Field Theory",
@@ -62,7 +63,8 @@
                 "note": "Qu 3 & 4. Wed 18 Jan"
             }
         },
-        "notes": "http://www.damtp.cam.ac.uk/user/tong/qft/qft.pdf"
+        "notes": "http://www.damtp.cam.ac.uk/user/tong/qft/qft.pdf",
+        "status": "warning"
     },
     "gr": {
         "title": "General Relativity",
@@ -102,7 +104,8 @@
                 "note": "2013"
             }
         },
-        "notes": "http://www.damtp.cam.ac.uk/user/hsr1000/lecturenotes_2012.pdf"
+        "notes": "http://www.damtp.cam.ac.uk/user/hsr1000/lecturenotes_2012.pdf",
+        "status": "warning"
     },
     "msm": {
         "title": "Modern Statistical Methods",
@@ -142,7 +145,8 @@
                 "archive": false
             }
         },
-        "notes": "http://www.statslab.cam.ac.uk/~rds37/teaching/modern_stat_methods/notes_MSM.pdf"
+        "notes": "http://www.statslab.cam.ac.uk/~rds37/teaching/modern_stat_methods/notes_MSM.pdf",
+        "status": "warning"
     },
     "tco": {
         "title": "Topics in Convex Optimisation",
@@ -195,7 +199,8 @@
             "14": "http://www.damtp.cam.ac.uk/user/hf323/lent2017_topics_convex_optimisation/lecture14.pdf",
             "15": "http://www.damtp.cam.ac.uk/user/hf323/lent2017_topics_convex_optimisation/lecture15.pdf",
             "16": "http://www.damtp.cam.ac.uk/user/hf323/lent2017_topics_convex_optimisation/lecture16.pdf"
-        }
+        },
+        "status": "warning"
     },
     "sm": {
         "title": "Standard Model",
@@ -228,7 +233,8 @@
                 "class": "Mon 22 May 14:00 MR3"
             }
         },
-        "notes": "http://www.damtp.cam.ac.uk/user/cet34/teaching/SM/stdmodel.pdf"
+        "notes": "http://www.damtp.cam.ac.uk/user/cet34/teaching/SM/stdmodel.pdf",
+        "status": "danger"
     },
     "aqft": {
         "title": "Advanced Quantum Field Theory",
