@@ -234,7 +234,7 @@
             }
         },
         "notes": "http://www.damtp.cam.ac.uk/user/cet34/teaching/SM/stdmodel.pdf",
-        "status": "danger"
+        "status": "warning"
     },
     "aqft": {
         "title": "Advanced Quantum Field Theory",
