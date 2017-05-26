@@ -146,7 +146,10 @@
             },
             "R": {
                 "url": "http://www.statslab.cam.ac.uk/~rds37/teaching/modern_stat_methods/Revision%20questions.pdf",
-                "class": "Fri 19 May 14:00 MR4"
+                "sol": "http://www.statslab.cam.ac.uk/~rds37/teaching/modern_stat_methods/Revision%20questions_sol.pdf",
+                "class": "Fri 19 May 14:00 MR4",
+                "done": true,
+                "archive": true
             }
         },
         "notes": "http://www.statslab.cam.ac.uk/~rds37/teaching/modern_stat_methods/notes_MSM.pdf",
