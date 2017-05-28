@@ -19,17 +19,17 @@
                 "url": "http://www.damtp.cam.ac.uk/user/examples/3P2c.pdf",
                 "class": "Fri 2 Dec 14:00 MR21",
                 "done": true,
-                "archive": false
+                "archive": true
             },
             "4": {
                 "url": "http://www.damtp.cam.ac.uk/user/examples/3P2d.pdf",
                 "class": "Wed 18 Jan 14:00 MR15",
                 "done": true,
-                "archive": false
+                "archive": true
             }
         },
         "notes": "https://dec41.user.srcf.net/notes/III_M/symmetries_fields_and_particles.pdf",
-        "status": "primary"
+        "status": "success"
     },
     "qft": {
         "title": "Quantum Field Theory",
