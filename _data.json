@@ -105,7 +105,7 @@
             }
         },
         "notes": "http://www.damtp.cam.ac.uk/user/hsr1000/lecturenotes_2012.pdf",
-        "status": "warning"
+        "status": "primary"
     },
     "msm": {
         "title": "Modern Statistical Methods",
