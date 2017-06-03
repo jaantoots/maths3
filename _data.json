@@ -88,24 +88,26 @@
                 "url": "http://www.damtp.cam.ac.uk/user/examples/3R1c.pdf",
                 "class": "Mon 28 Nov 16:00 MR5",
                 "note": "Qu 3 & 7. Sat 26 Nov 17:00",
-                "done": false,
-                "archive": false
+                "done": true,
+                "archive": true
             },
             "4": {
                 "url": "http://www.damtp.cam.ac.uk/user/examples/3R1d.pdf",
                 "class": "Mon 23 Jan 14:00 MR11",
                 "note": "Qu 7 & 13. Sun 22 Jan 17:00",
                 "done": false,
-                "archive": false
+                "archive": true
             },
             "R": {
                 "url": "https://www.maths.cam.ac.uk/sites/www.maths.cam.ac.uk/files/pre2014/postgrad/mathiii/pastpapers/2013/PaperIII_49.pdf",
                 "class": "Mon 22 May 11:00",
-                "note": "2013"
+                "note": "2013",
+                "done": true,
+                "archive": true
             }
         },
         "notes": "http://www.damtp.cam.ac.uk/user/hsr1000/lecturenotes_2012.pdf",
-        "status": "primary"
+        "status": "success"
     },
     "msm": {
         "title": "Modern Statistical Methods",
