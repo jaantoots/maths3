@@ -60,11 +60,13 @@
             "4": {
                 "url": "http://www.damtp.cam.ac.uk/user/examples/3P1d.pdf",
                 "class": "Fri 20 Jan 16:00 MR11",
-                "note": "Qu 3 & 4. Wed 18 Jan"
+                "note": "Qu 3 & 4. Wed 18 Jan",
+                "done": false,
+                "archive": true
             }
         },
         "notes": "http://www.damtp.cam.ac.uk/user/tong/qft/qft.pdf",
-        "status": "warning"
+        "status": "success"
     },
     "gr": {
         "title": "General Relativity",
@@ -144,7 +146,7 @@
                 "class": "Fri 20 Jan 14:00 MR5",
                 "note": "Qu 3 & 10. Tue 17 Jan 16:30",
                 "done": false,
-                "archive": false
+                "archive": true
             },
             "R": {
                 "url": "http://www.statslab.cam.ac.uk/~rds37/teaching/modern_stat_methods/Revision%20questions.pdf",
@@ -155,7 +157,7 @@
             }
         },
         "notes": "http://www.statslab.cam.ac.uk/~rds37/teaching/modern_stat_methods/notes_MSM.pdf",
-        "status": "warning"
+        "status": "success"
     },
     "tco": {
         "title": "Topics in Convex Optimisation",
