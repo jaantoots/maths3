@@ -181,17 +181,23 @@
             "3": {
                 "url": "http://www.damtp.cam.ac.uk/user/hf323/lent2017_topics_convex_optimisation/example_class_3.pdf",
                 "class": "Tue 14 Feb 15:00 MR4",
-                "note": "Exercises of Lecture 7"
+                "note": "Exercises of Lecture 7",
+                "done": false,
+                "archive": true
             },
             "4": {
                 "url": "http://www.damtp.cam.ac.uk/user/hf323/lent2017_topics_convex_optimisation/example_class_4.pdf",
                 "class": "Tue 7 Mar 15:00 MR4",
-                "note": "Exercises of Lectures 11, 12 & 13"
+                "note": "Exercises of Lectures 11, 12 & 13",
+                "done": false,
+                "archive": true
             },
             "R": {
                 "url": "http://www.damtp.cam.ac.uk/user/hf323/lent2017_topics_convex_optimisation/revisions_exercises.pdf",
                 "sol": "http://www.damtp.cam.ac.uk/user/hf323/lent2017_topics_convex_optimisation/revisions_exercises_with_solutions.pdf",
-                "class": "Thu 4 May 14:00 MR4"
+                "class": "Thu 4 May 14:00 MR4",
+                "done": true,
+                "archive": true
             }
         },
         "altnotes": {
@@ -212,7 +218,7 @@
             "15": "http://www.damtp.cam.ac.uk/user/hf323/lent2017_topics_convex_optimisation/lecture15.pdf",
             "16": "http://www.damtp.cam.ac.uk/user/hf323/lent2017_topics_convex_optimisation/lecture16.pdf"
         },
-        "status": "warning"
+        "status": "success"
     },
     "sm": {
         "title": "Standard Model",
