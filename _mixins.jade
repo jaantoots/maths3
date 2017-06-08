@@ -4,10 +4,7 @@ mixin courses(...rows)
       for slug in row
         - var dir = public._data[slug]
         .col-md-6.col-xs-12
-          - var panel = "default"
-          if dir.status
-            - panel = dir.status
-          .panel(class="panel-#{panel}")
+          .panel.panel-default
             .panel-heading: h3.panel-title
               span
                 if dir.webpage
